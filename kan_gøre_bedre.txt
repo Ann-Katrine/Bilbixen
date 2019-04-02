@@ -1,0 +1,2 @@
+-husk at hash password på php og mulighvis også databasen (når man laver login-side)
+-husk at finde ud af om man er er login med en session til der kan se om man er logget ind

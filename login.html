@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>login</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	</head>
+	<body onload="hide()">
+		<div class="container">
+			<!-- menu -->
+			<div class="row">
+				<div class="col-12 col-sm-12 col-lg-12 hedder-bg" >
+					<ul>
+						<li>
+							<a><i>Bilbixen</i></a>
+						</li>
+						<li style="float: right" class="dropdown">
+							<a href="javascript:void(0)" class="dropbtn active">Dropdown</a>
+							<div class="dropdown-content">
+								<a class="active" id="login"  href="login.html">login</a>
+							</div>
+						</li>
+						<li style="float:right">
+							<a href="biler.html">Find bil</a>
+						</li>
+						<li style="float:right">
+							<a href="Index.html">Forside</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+				
+			<!-- login -->
+			<div class="container">
+				<div class="h2-fulid text-center">
+					<table class="d-flex justify-content-center align-items-center" id="logintable">
+						<form  action='PHP/Login.php' method='POST'>
+							<tr>
+								<td>brugernavn: </td>
+								<td><input type='text' name=brugernavn class='form' placeholder="Indtast kodeord"></td>
+							</tr>
+							<tr>
+								<td>kodeord: </td>
+								<td><input type='password' name='kodeord' class='form' placeholder="Indtast kodeord"></td>
+							</tr>
+							<tr>
+								<td><input type='submit' value='login' class='button' /></td>
+							</tr>
+						</form>
+					</table>
+				</div>
+			</div>
+
+		</div>
+	
+		<script src="Javascript/Logout_wh.js"></script>
+        <script src="javascript/Hide_things.js" ></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		
+	</body>
+	<footer>
+		<div class="container">
+            <div class="row">
+				<div class="col-12 col-sm-4 col-lg-4 p-3 color">
+					<p> <i>consectetur adipiscing</i> </p> 
+					<p>Nam ut nisl quis mauris accumsan mollis. Proin eget condimentum tortor, eu lobortis lacus. Suspendisse varius rutrum mi eu rutrum. Donec vitae nulla odio. Sed vitae orci erat. Etiam quis tellus quis mi convallis ullamcorper. Nunc augue lacus, fermentum quis leo ac. </p>
+				</div>
+
+				<div class="col-12 col-sm-4 col-lg-4 p-3 color">
+					<p> <i>Vores produkter</i> </p> 
+					<p> Route66 Classic <br> Route66 Light <br> Route66 Ice latte <br> Route66 Hot chocolate</p>
+				</div>
+
+				<div class="col-12 col-sm-4 col-lg-4 p-3 color">
+					<p> <i>Bilbixen</i> </p> 
+					<p>munkebjergvej 130, 5230 Odense M<br> Tlf: 22567080 <br> Fax: 22335465 <br>Email: Route66@route66.dk</p>
+				</div>
+            </div>
+		</div>
+	</footer>
+	
+	<link href="CSS/CSS_bilk.css" rel="stylesheet" type="text/css">
+
+	
+</html>

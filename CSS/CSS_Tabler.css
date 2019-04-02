@@ -1,0 +1,43 @@
+/* første måde */
+table.rammen {
+    border-collapse: separate;
+	border-spacing:4em;
+}
+
+
+table.rammen td {
+	background-color: cadetblue;
+	border-style: solid;
+  	border-width: 5px;
+	border-color: cadetblue;
+	border-radius: 5px;
+}
+
+/* anden måde */
+table.rammen1 {
+    border-collapse:separate;
+	border-spacing:2em;
+}
+
+
+table.rammen1 td {
+	background-color: cadetblue;
+	border-style: solid;
+  	border-width: 5px;
+	border-color: cadetblue;
+	border-radius: 5px;
+}
+
+/* trejde måde */
+table.rammen2 {
+    border-collapse:separate;
+	border-spacing:3em;
+}
+
+table.rammen2 td {
+	background-color: cadetblue;
+	border-style: solid;
+  	border-width: 5px;
+	border-color: cadetblue;
+	border-radius: 5px;
+}

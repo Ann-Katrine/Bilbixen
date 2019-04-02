@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <title>Kommentar</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    </head>
+    <body onload="Getcommens()">
+		<div class="container">
+			<!-- menu -->
+			<div class="row">
+				<div class="col-12 col-sm-12 col-lg-12 hedder-bg" >
+					<ul>
+						<li>
+							<a><i>Bilbixen</i></a>
+						</li>
+						<li style="float: right" class="dropdown">
+							<a href="javascript:void(0)" class="dropbtn active">Dropdown</a>
+							<div class="dropdown-content">
+								<a href="forhandler_admin_side.html">Profil</a>
+								<a href="Opret_bil.html" >Opret bil</a>
+								<a class="active" href="kommentar.html">Godkend og slet kommentar</a>
+								<a href="Update_biler.html">Rediger og slet biler</a>
+								<a href="#" onclick="logout()">Logout</a>
+							</div>
+						</li>
+						<li style="float:right">
+							<a href="biler.html">Find bil</a>
+						</li>
+						<li style="float:right">
+							<a href="Index.html">Forside</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<!--overkrift-->
+				<div class="col-12 col-sm-12 col-lg-12 p-3 text-center">
+					<h1><em>Kommentarside</em></h1>
+				</div>
+			</div>
+
+			<!-- ved ikke i nu om det er det der skal være -->
+			<div class="row">
+				<div class="col-12 col-sm-12 col-lg-12 text-center">
+					<p>Her kan du godkende eller slette kommentar</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-12 col-lg-12 text-center">
+				<button type="submit" onclick="godkend()">Godkend</button>
+				<button type="submit" onclick="ikke_godkendt()">ikke Godkendt</button>
+			</div>
+			<div id="hello"></div>
+		</div>
+		
+		<script src="Javascript/Logout.js"></script>
+		<script src="Javascript/Commens.js" ></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		
+    </body>
+	<footer>
+		<div class="container">
+            <div class="row">
+				<div class="col-12 col-sm-4 col-lg-4 p-3 color">
+					<p> <i>consectetur adipiscing</i> </p> 
+					<p>Nam ut nisl quis mauris accumsan mollis. Proin eget condimentum tortor, eu lobortis lacus. Suspendisse varius rutrum mi eu rutrum. Donec vitae nulla odio. Sed vitae orci erat. Etiam quis tellus quis mi convallis ullamcorper. Nunc augue lacus, fermentum quis leo ac. </p>
+				</div>
+
+				<div class="col-12 col-sm-4 col-lg-4 p-3 color">
+					<p> <i>Vores produkter</i> </p> 
+					<p> Route66 Classic <br> Route66 Light <br> Route66 Ice latte <br> Route66 Hot chocolate</p>
+				</div>
+
+				<div class="col-12 col-sm-4 col-lg-4 p-3 color">
+					<p> <i>Bilbixen</i> </p> 
+					<p>munkebjergvej 130, 5230 Odense M<br> Tlf: 22567080 <br> Fax: 22335465 <br>Email: Route66@route66.dk</p>
+				</div>
+            </div>
+		</div>
+	</footer>
+    
+    <link href="CSS/CSS_bilk.css" rel="stylesheet" type="text/css">
+	<link href="CSS/CSS_Tabler.css" rel="stylesheet" type="text/css">
+    
+</html>
